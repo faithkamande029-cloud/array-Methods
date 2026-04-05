@@ -11,7 +11,7 @@ Array methods are in built functions that perform specific operation on array ob
 .copyWithin() copies part of this array from another location (target, start, end)
 .fill() -  changes a value within a range. (value, start, end)
 .reverse() - changes the position of the elements the first becomes the last and the last becomes the first.
-.sort() -  rearranges arrays.in order of ascending and descending order. Changes into a string and compares to unit value
+.sort() -  rearranges arrays.in order of ascending and descending order. Changes into a string and compares to unit value.
 
 
 ## Non-destructive Methodes
@@ -26,3 +26,5 @@ Array methods are in built functions that perform specific operation on array ob
 .includes() - checks to see if array contains specific value and returns true or false.
 .map() - creates new array by changing each element
 .filter() - created new array with only elements that pass a condition.
+.forEach() - logs in elements when condition is met.
+.reduce() - acts a "reducer" callback function.(return value from the calculation on the preceding element)
