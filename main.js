@@ -36,3 +36,16 @@ const sumWithInitial = numArray.reduce(
 
 console.log(sumWithInitial);
 // Expected output: 11
+
+// slice method 
+const movies = [
+    'Shawshank Redemption',
+    'Pulp fiction',
+    'Baby Driver',
+    'Fight Club',
+    'War Machine',
+    'Breaking Bad'
+]
+
+console.log(movies.slice(2, 4))
+// => ['Baby Driver', ['Fight Club']
